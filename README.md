@@ -32,6 +32,17 @@ It automates setting up the build environment, syncing OrangeFox sources, clonin
 
 ---
 
+## ⚠️ Notes
+- Colab has **limited storage ≈107GB** but **only ≈68GB free**. Building with 14.1 source may fail due to insufficient space.
+- You can still build Android 14 devices on the **12.1 source** by lowering SDK version in `device.mk` (set `PLATFORM_SDK_VERSION := 31` or lower).  
+- Always verify your **lunch name** (e.g. `twrp_CK6n-eng`) before building.  
+- This notebook is intended for **testing** and may not produce stable recoveries.  
+- Building in Google Colab may fail due to insufficient RAM and CPU, since Google Colab does not support swap. Try kaggle instead
+- Kaggle cell output may sometimes bug; use the built-in console view instead if issues occur (freezing or lost output).
+- Kaggle requires account verification to enable internet access.
+
+---
+
 ## 📂 Notebook Structure
 
 1. **🛠️ Prepare Environment**  
@@ -55,16 +66,6 @@ It automates setting up the build environment, syncing OrangeFox sources, clonin
 
 6. **📥 Download Files**  
    - Search and download `.img`, `.zip`, `.cpio`, `.lz4`, `.txt`, etc. from `/out` folder  
-
----
-
-## ⚠️ Notes
-- Colab has **limited storage ≈107GB** but **only ≈68GB free**. Building Android 14 may fail due to insufficient space.
-- You can still build Android 14 devices on the **12.1 source** by lowering SDK version in `device.mk` (set `PLATFORM_SDK_VERSION := 31` or lower).  
-- Always verify your **lunch name** (e.g. `twrp_CK6n-eng`) before building.  
-- This notebook is intended for **testing** and may not produce stable recoveries.  
-- Building in Google Colab may fail due to insufficient RAM and CPU, since Google Colab does not support swap. Try kaggle instead
-- Kaggle requires account verification to enable internet access.
 
 ---
 
