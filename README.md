@@ -72,6 +72,8 @@ It automates setting up the build environment, syncing OrangeFox sources, clonin
 ## 📝 TODOs
 - Kaggle: compact version (50% done, runs but UI/UX rough)
 - Improve build stability on Google Colab
+<img width="231" height="103" alt="Shot-2025-08-16-063622" src="https://github.com/user-attachments/assets/b69d5719-a182-4169-97ef-81c7e7571ab4" />
+
 
 ## 📜 License
 Apache 2.0 — free and open source.
