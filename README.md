@@ -17,9 +17,10 @@ It automates setting up the build environment, syncing OrangeFox sources, clonin
 
 ## ⚡ Usage
 
-1. Open the notebook in **Google Colab**:  
-   
-   https://colab.research.google.com/github/chunix64/jupyter-orangefox-builder/blob/main/Orangefox_Builder.ipynb
+1. Open the notebook:
+   - [Google colab version](https://colab.research.google.com/github/chunix64/jupyter-orangefox-builder/blob/main/orangefox-builder.ipynb)
+   - [Kaggle version](https://www.kaggle.com/code/chunix64/orangefox-builder-kaggle/notebook)
+   - Or, you can manually download it from the source code or release, then import it into your Jupyter service.
 
 2. Run each cell step by step:  
    - **Step 0**: Setup environment  
@@ -68,8 +69,8 @@ It automates setting up the build environment, syncing OrangeFox sources, clonin
 ---
 
 ## 📝 TODOs
-- Create a compact version for Kaggle (since Kaggle does not support the Colab-style UI form)  
-- Improve build stability on Google Colab 
+- Kaggle: compact version (50% done, runs but UI/UX rough)
+- Improve build stability on Google Colab
 
 ## 📜 License
 Apache 2.0 — free and open source.
